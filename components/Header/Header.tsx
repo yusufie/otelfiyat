@@ -6,7 +6,7 @@ import { MdDarkMode, MdOutlineLightMode } from 'react-icons/md';
 const Header = () => {
 
   return (
-    <header className='p-4 container mx-auto text-xl flex flex-wrap md:flex-nowrap items-center justify-between fixed top-0 text-white z-50'>
+    <header className='flex flex-wrap md:flex-nowrap items-center justify-between w-full py-4 px-8 text-xl  fixed top-0 text-white z-50'>
       <div className='flex items-center w-full md:2/3'>
         <Link href='/' className='font-black'>
           HotelFiyat

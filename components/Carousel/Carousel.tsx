@@ -15,7 +15,7 @@ function CarouselPlugin() {
   return (
     <Carousel
       // plugins={[plugin.current]}
-      className="w-full h-full overflow-hidden"
+      className="w-full overflow-hidden"
       // onMouseEnter={plugin.current.stop}
       // onMouseLeave={plugin.current.reset}
       opts={{ loop: true }}
@@ -23,10 +23,9 @@ function CarouselPlugin() {
       <CarouselContent>
         {Array.from({ length: 5 }).map((_, index) => (
           <CarouselItem key={index}>
-              <div className="flex items-center justify-center bg-black">
-                <Image src="/images/bed-balcony.jpg" alt="room" width={1920} height={1200} 
-                  className="  opacity-50 "
-                />
+              <div className="relative flex items-center justify-center bg-black">
+                <Image src="/images/bed-balcony.jpg" alt="room" width={1920} height={1200} className="object-cover opacity-50 "/>
+                <h1 className="absolute top-1/2 text-3xl font-black text-white" >HOTEL</h1>
               </div>
           </CarouselItem>
         ))}
