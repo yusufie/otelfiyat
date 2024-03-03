@@ -1,50 +1,62 @@
 [
   {
+    "_id": 1,
     "name": "Deluxe Suite",
     "type": "suite Room",
-    "price": "$ 100",
+    "price": "100",
     "description": "spacious and luxurious suite with stunning views. Enjoy the comfort and elegance of this beautiful...",
-    "status": "BOOKED",
-    "image": "https://www.thespruce.com/thmb/3Z"
+    "coverImage": "/images/deluxe-suite.webp",
+    "isBooked": "BOOKED",
+    "slug": "deluxe-suite"
   },
   {
+    "_id": 2,
     "name": "Family Suite",
     "type": "basic Room",
-    "price": "$ 300",
+    "price": "300",
     "description": "spacious suite suitable for families with children. This comfortable and well-appointed suite offe...",
-    "status": "BOOKED",
-    "image": "https://www.thespruce.com/thmb/3Z"
+    "coverImage": "/images/family-suite.webp",
+    "isBooked": "BOOKED",
+    "slug": "family-suite"
   },
   {
+    "_id": 3,
     "name": "Test Hotel",
     "type": "luxury Room",
-    "price": "$ 1000",
+    "price": "1000",
     "description": "spacious executive room with a view of the city skyline. Enjoy the comforts of modern luxury in th...",
-    "status": "BOOKED",
-    "image": "https://www.thespruce.com/thmb/3Z"
+    "coverImage": "/images/test-hotel.webp",
+    "isBooked": "BOOKED",
+    "slug": "test-hotel"
   },
   {
+    "_id": 4,
     "name": "Executive Room",
     "type": "luxury Room",
-    "price": "$ 200",
+    "price": "200",
     "description": "spacious executive room with a view of the city skyline. Enjoy the comforts of modern luxury in th...",
-    "status": "BOOKED",
-    "image": "https://www.thespruce.com/thmb/3Z"
+    "coverImage": "/images/executive-room.webp",
+    "isBooked": "BOOKED",
+    "slug": "executive-room"
   },
   {
+    "_id": 5,
     "name": "Luxury Villa",
     "type": "basic Room",
-    "price": "$ 500",
+    "price": "500",
     "description": "n exquisite villa with a private pool and garden. Indulge in the ultimate luxury and tranquility wi...",
-    "status": "BOOKED",
-    "image": "https://www.thespruce.com/thmb/3Z"
+    "coverImage": "/images/luxury-villa.webp",
+    "isBooked": "BOOKED",
+    "slug": "luxury-villa"
   },
   {
+    "_id": 6,
     "name": "Standard Room",
     "type": "basic Room",
-    "price": "$ 121",
+    "price": "121",
     "description": "comfortable and affordable standard room. Experience a pleasant stay in this cozy room, designed f...",
-    "status": "BOOKED",
-    "image": "https://www.thespruce.com/thmb/3Z"
+    "coverImage": "/images/standard-room.webp",
+    "isBooked": "BOOKED",
+    "slug": "standard-room"
   }
 ]
