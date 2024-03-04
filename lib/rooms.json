@@ -1,61 +1,211 @@
 [
   {
-    "_id": 1,
+    "_id": "1",
     "name": "Deluxe Suite",
-    "type": "suite Room",
+    "type": "suite",
     "price": "100",
-    "description": "spacious and luxurious suite with stunning views. Enjoy the comfort and elegance of this beautiful...",
+    "dimension": "1000 sqft",
+    "description": "spacious and luxurious suite with stunning views. Enjoy the comfort and elegance of this",
     "coverImage": "/images/deluxe-suite.webp",
+    "images": [
+      "/images/galery-1.webp",
+      "/images/galery-2.webp",
+      "/images/galery-3.webp",
+      "/images/galery-4.webp",
+      "/images/galery-5.webp"
+    ],
+    "offeredAmenities": [
+      {
+        "_key": "1",
+        "amenity": "King-sized bed",
+        "icon": "/icons/bed.svg"
+      },
+      {
+        "_key": "2",
+        "amenity": "Coffee Maker",
+        "icon": "/icons/coffee.svg"
+      },
+      {
+        "_key": "3",
+        "amenity": "Free Wi-Fi",
+        "icon": "/icons/wifi.svg"
+      }
+    ],
     "isBooked": "BOOKED",
     "slug": "deluxe-suite"
   },
   {
-    "_id": 2,
+    "_id": "2",
     "name": "Family Suite",
-    "type": "basic Room",
+    "type": "basic",
     "price": "300",
-    "description": "spacious suite suitable for families with children. This comfortable and well-appointed suite offe...",
+    "dimension": "1500 sqft",
+    "description": "spacious suite suitable for families with children. This comfortable and well-appointed suite offe",
     "coverImage": "/images/family-suite.webp",
+    "images": [
+      "/images/galery-2.webp",
+      "/images/galery-3.webp",
+      "/images/galery-4.webp",
+      "/images/galery-5.webp",
+      "/images/galery-1.webp"
+    ],
+    "offeredAmenities": [
+      {
+        "_key": "1",
+        "amenity": "King-sized bed",
+        "icon": "/icons/bed.svg"
+      },
+      {
+        "_key": "2",
+        "amenity": "Coffee Maker",
+        "icon": "/icons/coffee.svg"
+      },
+      {
+        "_key": "3",
+        "amenity": "Free Wi-Fi",
+        "icon": "/icons/wifi.svg"
+      }
+    ],
     "isBooked": "BOOKED",
     "slug": "family-suite"
   },
   {
-    "_id": 3,
-    "name": "Test Hotel",
-    "type": "luxury Room",
+    "_id": "3",
+    "name": "Modern Room",
+    "type": "luxury",
     "price": "1000",
-    "description": "spacious executive room with a view of the city skyline. Enjoy the comforts of modern luxury in th...",
-    "coverImage": "/images/test-hotel.webp",
+    "dimension": "500 sqft",
+    "description": "spacious executive room with a view of the city skyline. Enjoy the comforts of modern luxury in",
+    "coverImage": "/images/modern-room.webp",
+    "images": [
+      "/images/galery-3.webp",
+      "/images/galery-4.webp",
+      "/images/galery-5.webp",
+      "/images/galery-1.webp",
+      "/images/galery-2.webp"
+    ],
+    "offeredAmenities": [
+      {
+        "_key": "1",
+        "amenity": "King-sized bed",
+        "icon": "/icons/bed.svg"
+      },
+      {
+        "_key": "2",
+        "amenity": "Coffee Maker",
+        "icon": "/icons/coffee.svg"
+      },
+      {
+        "_key": "3",
+        "amenity": "Free Wi-Fi",
+        "icon": "/icons/wifi.svg"
+      }
+    ],
     "isBooked": "BOOKED",
-    "slug": "test-hotel"
+    "slug": "modern-room"
   },
   {
-    "_id": 4,
+    "_id": "4",
     "name": "Executive Room",
-    "type": "luxury Room",
+    "type": "luxury",
     "price": "200",
-    "description": "spacious executive room with a view of the city skyline. Enjoy the comforts of modern luxury in th...",
+    "dimension": "600 sqft",
+    "description": "spacious executive room with a view of the city skyline. Enjoy the comforts of modern luxury in",
     "coverImage": "/images/executive-room.webp",
+    "images": [
+      "/images/galery-4.webp",
+      "/images/galery-5.webp",
+      "/images/galery-1.webp",
+      "/images/galery-2.webp",
+      "/images/galery-3.webp"
+    ],
+    "offeredAmenities": [
+      {
+        "_key": "1",
+        "amenity": "King-sized bed",
+        "icon": "/icons/bed.svg"
+      },
+      {
+        "_key": "2",
+        "amenity": "Coffee Maker",
+        "icon": "/icons/coffee.svg"
+      },
+      {
+        "_key": "3",
+        "amenity": "Free Wi-Fi",
+        "icon": "/icons/wifi.svg"
+      }
+    ],
     "isBooked": "BOOKED",
     "slug": "executive-room"
   },
   {
-    "_id": 5,
+    "_id": "5",
     "name": "Luxury Villa",
-    "type": "basic Room",
+    "type": "basic",
     "price": "500",
-    "description": "n exquisite villa with a private pool and garden. Indulge in the ultimate luxury and tranquility wi...",
+    "dimension": "2000 sqft",
+    "description": "n exquisite villa with a private pool and garden. Indulge in the ultimate luxury and tranquility",
     "coverImage": "/images/luxury-villa.webp",
+    "images": [
+      "/images/galery-5.webp",
+      "/images/galery-1.webp",
+      "/images/galery-2.webp",
+      "/images/galery-3.webp",
+      "/images/galery-4.webp"
+    ],
+    "offeredAmenities": [
+      {
+        "_key": "1",
+        "amenity": "King-sized bed",
+        "icon": "/icons/bed.svg"
+      },
+      {
+        "_key": "2",
+        "amenity": "Coffee Maker",
+        "icon": "/icons/coffee.svg"
+      },
+      {
+        "_key": "3",
+        "amenity": "Free Wi-Fi",
+        "icon": "/icons/wifi.svg"
+      }
+    ],
     "isBooked": "BOOKED",
     "slug": "luxury-villa"
   },
   {
-    "_id": 6,
+    "_id": "6",
     "name": "Standard Room",
-    "type": "basic Room",
+    "type": "basic",
     "price": "121",
-    "description": "comfortable and affordable standard room. Experience a pleasant stay in this cozy room, designed f...",
+    "dimension": "400 sqft",
+    "description": "comfortable and affordable standard room. Experience a pleasant stay in this cozy room",
     "coverImage": "/images/standard-room.webp",
+    "images": [
+      "/images/galery-1.webp",
+      "/images/galery-2.webp",
+      "/images/galery-3.webp",
+      "/images/galery-4.webp",
+      "/images/galery-5.webp"
+    ],
+    "offeredAmenities": [
+      {
+        "_key": "1",
+        "amenity": "King-sized bed",
+        "icon": "/icons/bed.svg"
+      },
+      {
+        "_key": "2",
+        "amenity": "Coffee Maker",
+        "icon": "/icons/coffee.svg"
+      },
+      {
+        "_key": "3",
+        "amenity": "Free Wi-Fi",
+        "icon": "/icons/wifi.svg"
+      }
+    ],
     "isBooked": "BOOKED",
     "slug": "standard-room"
   }

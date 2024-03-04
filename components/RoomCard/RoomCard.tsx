@@ -14,7 +14,9 @@ const RoomCard: FC<Props> = props => {
   } = props;
 
   return (
-    <div className='rounded-xl w-72 mb-10 mx-auto md:mx-0 overflow-hidden text-black'>
+    <Link href={`/rooms/${slug}`}
+      className='rounded-xl w-72 mb-10 mx-auto md:mx-0 overflow-hidden text-black'
+    >
       <div className='h-60 overflow-hidden'>
         <Image
           src={coverImage}
@@ -35,14 +37,13 @@ const RoomCard: FC<Props> = props => {
 
         <p className='pt-3 pb-6'>{description.slice(1, 100)}...</p>
 
-        <Link
-          href={`/rooms/${slug.current}`}
-          className='bg-primary inline-block text-center w-full py-4 rounded-xl text-white text-xl font-bold hover:-translate-y-2 hover:shadow-lg transition-all duration-500'
+        <button
+          className='bg-indigo-900 inline-block text-center w-full py-4 rounded-xl text-white text-xl font-bold hover:-translate-y-2 hover:shadow-lg transition-all duration-500'
         >
-          {isBooked ? 'BOOKED' : 'BOOK NOW'}
-        </Link>
+          {isBooked ? 'Rezerve' : 'Rezerve Edin'}
+        </button>
       </div>
-    </div>
+    </Link>
   );
 };
 

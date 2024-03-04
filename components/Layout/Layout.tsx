@@ -7,7 +7,7 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }: any) => {
   return (
-    <main className=" bg-gray-600">
+    <main className="">
       <Header />
       {children}
     </main>

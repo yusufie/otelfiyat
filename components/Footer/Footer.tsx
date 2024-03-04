@@ -27,28 +27,36 @@ const Footer: React.FC = () => {
             </div>
 
             <div className='flex flex-row items-center pt-4 gap-4'>
-              <Image src="/icons/facebook.svg" alt='facebook' width={24} height={24} />
-              <Image src="/icons/twitter.svg" alt='twitter' width={24} height={24} />
-              <Image src="/icons/instagram.svg" alt='instagram' width={24} height={24} />
-              <Image src="/icons/linkedin.svg" alt='linkedin' width={24} height={24} />
+              <Image src="/icons/facebook.svg" alt='facebook' width={24} height={24} 
+                className='cursor-pointer hover:opacity-90 transition duration-300 ease-in-out'
+              />
+              <Image src="/icons/twitter.svg" alt='twitter' width={24} height={24} 
+                className='cursor-pointer hover:opacity-90 transition duration-300 ease-in-out'
+              />
+              <Image src="/icons/instagram.svg" alt='instagram' width={24} height={24} 
+                className='cursor-pointer hover:opacity-90 transition duration-300 ease-in-out'
+              />
+              <Image src="/icons/linkedin.svg" alt='linkedin' width={24} height={24} 
+                className='cursor-pointer hover:opacity-90 transition duration-300 ease-in-out'
+              />
             </div>
             
           </div>
 
           <div className='flex-1'>
-            <p className='pb-4'>Our Story</p>
-            <p className='pb-4'>Get in Touch</p>
-            <p className='pb-4'>Our Privacy Commitment</p>
-            <p className='pb-4'>Terms of service</p>
-            <p>Customer Assistance</p>
+            <p className='pb-4 hover:underline cursor-pointer'>Our Story</p>
+            <p className='pb-4 hover:underline cursor-pointer'>Get in Touch</p>
+            <p className='pb-4 hover:underline cursor-pointer'>Our Privacy Commitment</p>
+            <p className='pb-4 hover:underline cursor-pointer'>Terms of service</p>
+            <p className='hover:underline cursor-pointer'>Customer Assistance</p>
           </div>
 
           <div className='flex-1'>
-            <p className='pb-4'>Dining Experience</p>
-            <p className='pb-4'>Wellness</p>
-            <p className='pb-4'>Fitness</p>
-            <p className='pb-4'>Sports</p>
-            <p>Events</p>
+            <p className='pb-4 hover:underline cursor-pointer'>Dining Experience</p>
+            <p className='pb-4 hover:underline cursor-pointer'>Wellness</p>
+            <p className='pb-4 hover:underline cursor-pointer'>Fitness</p>
+            <p className='pb-4 hover:underline cursor-pointer'>Sports</p>
+            <p className='hover:underline cursor-pointer'>Events</p>
           </div>
         </div>
       </div>
