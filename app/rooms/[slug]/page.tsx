@@ -16,12 +16,10 @@ const RoomDetails = () => {
   const { slug } = useParams();
 
   const room = roomsData?.find((room: Room) => room.slug === slug);
-  console.log("room:", room)
-  console.log("room.images:", room?.images)
 
   return (
      <Layout>
-      <HotelPhotoGallery photos={room?.images} />
+      <HotelPhotoGallery photos={room?.images || []} />
 
       <div className='container mx-auto mt-20'>
         <div className='md:grid md:grid-cols-12 gap-10 px-3'>
