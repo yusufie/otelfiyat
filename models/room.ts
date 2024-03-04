@@ -1,9 +1,4 @@
 
-export type Image = {
-  _key: string;
-  url: string;
-};
-
 type Amenity = {
   _key: string;
   amenity: string;
@@ -16,7 +11,7 @@ export type Room = {
   description: string;
   dimension?: string;
   discount?: number;
-  images?: Image[];
+  images?: string[] | undefined;
   isBooked: string;
   isFeatured?: boolean;
   name: string;
@@ -26,16 +21,4 @@ export type Room = {
   slug: string;
   specialNote?: string;
   type: string;
-};
-
-export type CreateBookingDto = {
-  user: string;
-  hotelRoom: string;
-  checkinDate: string;
-  checkoutDate: string;
-  numberOfDays: number;
-  adults: number;
-  children: number;
-  totalPrice: number;
-  discount: number;
 };
