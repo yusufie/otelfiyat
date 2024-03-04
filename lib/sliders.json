@@ -1,0 +1,28 @@
+
+[
+    {
+        "_id": "1",
+        "title": "Retreat to Your Private Sanctuary in Our Hotel Room",
+        "image": "/images/night-bed.jpg"
+    },
+    {
+        "_id": "2",
+        "title": "Stay in Our Luxurious Hotel Room",
+        "image": "/images/room-light.jpg"
+    },
+    {
+        "_id": "3",
+        "title": "Enjoy Your Morning Coffee on Your Balcony",
+        "image": "/images/bed-balcony.jpg"
+    },
+    {
+        "_id": "4",
+        "title": "Indulge in Our Cozy Hotel Bed",
+        "image": "/images/room-bed.jpg"
+    },
+    {
+        "_id": "5",
+        "title": "Dine in Our Exquisite Hotel Cafeteria",
+        "image": "/images/cafeteria.jpg"
+    }
+]

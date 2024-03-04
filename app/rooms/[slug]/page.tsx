@@ -16,8 +16,6 @@ const RoomDetails = () => {
   const { slug } = useParams();
 
   const room = roomsData?.find((room: Room) => room.slug === slug);
-  console.log("room:", room)
-  console.log("room.images:", room?.images)
 
   return (
      <Layout>
