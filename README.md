@@ -1,5 +1,5 @@
 ## Otel Fiyat Live Demo
-- https://otel-fiyat.vercel.app/
+https://otel-fiyat.netlify.app/
 
 
 # Figma Design
